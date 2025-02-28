@@ -7,5 +7,6 @@ function changeColor() {
 
 function rsvp() {
     let message = encodeURIComponent("Hey! I'm excited to join Kriishav's birthday party! 🎉");
-    window.open(`https://wa.me/?text=${message}`, '_blank');
+    let phoneNumber = "+919561563057";
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
 }
